@@ -10,8 +10,8 @@ end
 
 def input_to_index(num)
   num = gets.strip
-  i = (num - 1).to_i
-  return i
+  (num - 1).to_i
+  
 end
 
 def move(board, i, char = "X")
