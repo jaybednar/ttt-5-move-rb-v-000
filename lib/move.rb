@@ -9,6 +9,7 @@ end
 # code your input_to_index and move method here!
 
 def input_to_index(num)
+  num = gets.strip
   i = (num - 1).to_i
   return i
 end
